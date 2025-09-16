@@ -1,8 +1,21 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Go / Windows
+bin/
+build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# IDE
+.idea/
+*.iml
+
+# Node/Web junk (на всякий)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
